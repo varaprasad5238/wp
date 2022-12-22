@@ -1,0 +1,739 @@
+/* navbar */
+
+.navbar
+{
+  background-color:#0a2254;
+  color: #000;
+  padding-bottom: 0;
+
+}
+.nav-link
+{
+  margin: 20px;
+  color:#fff;
+}
+.btn
+{
+  margin: 20px;
+  color:#fff;
+  border: solid;
+}
+.btn:hover
+{
+color:red;
+}
+.nav-link:hover
+{
+  color:grey;
+}
+.navbar-toggler-icon
+{
+  color:#fff;
+}
+
+
+/* carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    outline: #fff;
+    background-color:grey;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid grey;
+    border: 0;
+
+
+}
+.carousel-control-prev-favicon{
+  margin-left: 0;
+}
+#carouselExampleIndicators
+{
+  position: realtive;
+  background-color: #0a2254;
+  padding-top: 1%;
+  padding-top: 6.8%;
+
+}
+
+/* features */
+#features
+{
+  background-color: #FEFBE7;
+  padding: 5rem 8rem;
+  text-align: center;
+  line-height: 100%;
+}
+.features-heading
+{
+  margin-bottom:  60px;
+  font-size: 2rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #151D3B;
+}
+.features-heading1
+{
+  margin-bottom:  60px;
+  font-size: 3rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #243D25;
+}
+.features-text1
+{
+  font-size: 1.25rem;
+  margin-top: 20px;
+  font-family: Ubuntu;
+  color: #005555;
+  line-height: 2rem;
+
+}
+
+/* rides */
+#rides{
+  background-color:#0a2254;
+  text-align: center;
+  padding: 50px 50px;
+  padding-bottom: 100px;
+  clip-path: polygon(0 14%, 100% 0%, 100% 86%, 0% 100%);
+  position: relative;
+  margin-top: -4.2%;
+}
+.thrill-head
+{
+  font-size: 4rem;
+  margin-top: 10%;
+  color: red;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.two-left
+{
+  width:200px;
+  height:auto;
+  border-radius: 20%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 5px;
+}
+.two-right
+{
+  width:200px;
+  height:auto;
+  border-radius: 20%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 5px;
+  padding-right: 40px;
+}
+#carouselExampleIndicators1
+{
+  background-color: #0a2254;
+  border-radius: 10%;
+  padding: 30px;
+}
+
+.thrill-text
+{
+  margin-top: 30px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 1.05rem;
+    color: #fff;
+}
+.subtext
+{
+  color: #fff;
+  border-radius: 80%;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.carousel-caption
+{
+  padding-bottom: 0;
+  bottom: 0;
+}
+.violence-logo
+{
+  margin-top: 50px;
+}
+@media (max-width:1080px)
+{
+  .two-left
+  {
+    width:250;
+    height: auto;
+  }
+  .two-right
+  {
+    width:250;
+    height: auto;
+  }
+}
+@media (max-width:500px)
+{
+  .two-left
+  {
+  height:225px;
+  }
+  .two-right
+  {
+  height: 225px;
+  }
+
+}
+/* food */
+#food
+{
+  background-color: #f5d72f;
+  padding: 50px 50px;
+  clip-path:polygon(0 14%, 100% 0%, 100% 100%, 0% 88%);
+  position: relative;
+  margin-top: -6.2%;
+  text-align: center;
+}
+.three-left
+{
+  width:200px;
+  height:auto;
+  border-radius: 20%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 5px;
+}
+.three-right
+{
+  width:200px;
+  height:auto;
+  border-radius: 20%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 5px;
+  padding-right: 40px;
+}
+#carouselExampleIndicators2
+{
+  border-radius: 10%;
+  padding: 30px;
+}
+.food-head{
+  padding-top: 50px;
+  margin-top: 100px;
+  padding-bottom: 10px;
+  color: #0a2254;
+  font-family: 'Jost' sans-serif;
+  font-weight: bold;
+  }
+  .food-text
+  {
+    font-family: Ubuntu;
+    font-weight: 500;
+  }
+hr.rideshr
+{
+  height: 2px;
+  border: none;
+  border-top:1px solid white;
+  color: #fff;
+  width:20%;
+  margin: 5% auto 0;
+  margin-top: 30px;
+  text-align: center;
+  align:centre;
+  opacity: 1;
+}
+hr.foodhr
+{
+  content: '';
+    display: flex;
+    justify-content: center;
+    margin: 5% auto 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #000;
+    width: 60px;
+    opacity: 1;
+}
+@media (max-width:790px)
+{
+  .food-head
+  {
+  margin-top:30px;
+  }
+
+}
+.food-btn
+{
+  background-color: #0a2254;
+  color: #f5d72f;
+  font-family: Ubuntu;
+}
+.food-btn:hover
+{
+  background-color: #fff;
+  color: #0a2254;
+}
+
+
+/* merchandise */
+#merchandise
+{
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 110px;
+}
+
+.teddy
+{
+  height: 611px;
+  position: relative;
+}
+.teddy-text
+{
+  background-color: #0a2254;
+  color: #fff;
+  height:382px;
+  margin-left: 660px;
+  margin-top: -420px;
+  position: relative;
+  padding-left: 60px;
+  bottom: 120px;
+  left: 70px;
+  padding-top: 80px;
+  padding-right: 15px;
+  width: 600px;
+
+}
+.teddy-head
+{
+ font-size: 2.5rem;
+ padding-left: 60px;
+ padding-bottom: 10px;
+ font-family: Jost,sans-serif;
+}
+hr.teddy-line
+{
+  content: '';
+    display: flex;
+    justify-content: center;
+    margin: 4% auto 0;
+    margin-top: 0;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fff;
+    width: 60px;
+    opacity: 1;
+}
+.teddy-p
+{
+  font-family: Ubuntu;
+  text-align: center;
+  padding-right: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* offers */
+
+#offers
+{
+  background-color: #ffd336;
+  clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
+  padding-top: 150px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+.offers-slide
+{
+  padding: 0;
+  padding-top: 10px;
+  width: 1100px;
+  height: 320px;
+  padding-bottom: 100px;
+}
+.offers-head
+{
+  color: #0A2254;
+  font-size: 1.95em;
+  font-weight: 300;
+  font-family: Montserrat;
+}
+.four
+{
+  height: 480px;
+  padding-left: 100px;
+
+}
+hr.offers-line
+{
+  content: '';
+    display: flex;
+    justify-content: center;
+    margin: 4% auto 0;
+    margin-top: 20px;
+    margin-left: 720px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #000;
+    width: 60px;
+    opacity: 1;
+}
+/* footer */
+.footer-block
+{
+  padding: 0;
+  position: relative;
+}
+
+.footer-text{
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-top: -460px;
+}
+.footer-head
+{
+  font-family: 'Jost', sans-serif;
+}
+.footer-ul
+{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align:center;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+hr.footer-line
+{
+  content: '';
+    display: flex;
+    justify-content: center;
+    margin: 4% auto 0;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+    opacity: 1;
+}
+.fa-brands
+{
+  background-color: #fff;
+  padding: 10px;
+  color:#0a2254;
+  font-size: 1.2em;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+hr.footer-line1
+{
+  content: '';
+    display: flex;
+    justify-content: center;
+    margin: 4% auto 0;
+    margin-top: 10px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    opacity: 1;
+}
+.copyright
+{
+  margin-top: -10px;
+  padding-top: 10px;
+}
+
+
+
+
+/* ticket */
+.ticket-in
+{
+  color: grey;
+}
+.weekday
+{
+  margin-top: 150px;
+  text-align: center;
+}
+.ticket-head
+{
+  color: #000;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-family: 'Jost',sans-serif;
+  font-weight: bold;
+}
+.weekday-head
+{
+  padding-bottom:20px;
+  font-family:   font-family: 'Jost',sans-serif;
+  color: #0a2254;
+  font-weight: 700;
+}
+.weekday-price
+{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.weekend
+{
+  text-align: center;
+  padding-top : 100px;
+}
+.weekend-line
+{
+  content: '';
+    display: flex;
+    justify-content: center;
+    margin: 4% auto 0;
+    margin-top: 10px;
+    margin-right: 680px;
+    margin-left: 680px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #000;
+    opacity: 1;
+}
+.weekday-line
+{
+  content: '';
+    display: flex;
+    justify-content: center;
+    margin: 4% auto 0;
+    margin-top: 10px;
+    margin-right: 700px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #000;
+    opacity: 1;
+}
+.note
+{
+  margin-left: 120px;
+  font-family: Jost;
+  font-weight: bold;
+  padding-top: 100px;
+  font-size: 1.25rem;
+}
+.precaution
+{
+  margin-left: 300px;
+  font-family: Jost;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.ticket-body
+{
+  background-color: #79A3B1;
+}
+
+
+
+
+/* food-html */
+
+.second-nav
+{
+  background-color:#F47C7C;
+  color: #fff;
+  height: 90px;
+  margin-top: 90px;
+  text-align: center;
+}
+.day-row{
+  margin-left: 500px;
+}
+.all-menu
+{
+  color: #000;
+}
+.all-menu:hover
+{
+  color: #000;
+}
+.text-day{
+  text-align: center;
+  padding: 0;
+}
+.day-head
+{
+  font-family: 'Jost';
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.day-head4
+{
+  font-family: 'Jost';
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.meals1
+{
+  height: 700px;
+  margin-left: 150px;
+  padding-bottom: 10px;
+}
+.offer-meal
+{
+  border-radius: 10%;
+  margin-right: 150px;
+  height: 550px;
+}
+.rangarao
+{
+  background-color: #f5d72f;
+  padding: 50px 50px;
+  clip-path:polygon(0 14%, 100% 0%, 100% 100%, 0% 88%);
+  position: relative;
+  margin-top: -6.2%;
+  text-align: center;
+  top: 50px;
+}
+
+
+/* restaurants */
+
+.restro-head
+{
+  padding:80px 0;
+  text-align: center;
+}
+.kfc-c
+{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 1.5rem;
+  font-family: 'Jost';
+}
+.rest-a
+{
+  padding-bottom:120px;
+}
+.rest-b
+{
+  padding: 80px 0;
+}
+.rest-head-a
+{
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+}
+
+.paradise
+{
+  width: 665px;
+  height: 500px;
+}
+
+.p-text
+{
+text-align: center;
+padding-top: 100px;
+font-family: 'Jost';
+font-size: 1.25rem;
+}
+
+.p-head
+{
+  padding-bottom: 40px;
+  font-size: 3.5rem;
+}
+
+.f-truck
+{
+  height: 600px;
+  width : 480px;
+  margin-left: 100px;
+}
+.rest-e
+{
+  padding: 150px 0;
+}
+/* booking */
+
+#b-location
+{
+  background-color: #fff;
+    width: 1000px;
+    height: 160px;
+    margin-top: 150px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+.location
+{
+  width: 1030px;
+  height: 500px;
+  padding-bottom: 10px;
+}
+.hyd-pic
+{
+  width: 200px;
+  color: rgb(15, 14, 159);
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Jost';
+
+}
+.hyd
+{
+  border: 10px;
+    width: 180px;
+  height: 90px;
+  margin-left: 350px;
+}
+.hyd-press
+{
+  height: 90px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 10px
+}
+.b-label
+{
+  font-size: 20px;
+  font-family: Ubuntu;
+}
+
+.dates
+{
+  background-color: #fff;
+    width: 1000px;
+    height: 160px;
+    margin-top: 80px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+.c-label
+{
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Ubuntu;
+}
+.datepick
+{
+  font-size: 40px;
+  text-align: center;
+}
+.data
+{
+  margin-left: 350px;
+}
+.data1
+{
+  padding-top: 20px;
+  margin-left: 300px;
+}
+#calendar
+{
+  padding-bottom: 50px;
+}
